@@ -106,3 +106,4 @@ C:\Users\daniel.ferreira\Documents\GitHub\MinhaPrimeiraAPI\obj\Debug\net8.0\refi
 C:\Users\daniel.ferreira\Documents\GitHub\MinhaPrimeiraAPI\obj\Debug\net8.0\MinhaPrimeiraAPI.pdb
 C:\Users\daniel.ferreira\Documents\GitHub\MinhaPrimeiraAPI\obj\Debug\net8.0\MinhaPrimeiraAPI.genruntimeconfig.cache
 C:\Users\daniel.ferreira\Documents\GitHub\MinhaPrimeiraAPI\obj\Debug\net8.0\ref\MinhaPrimeiraAPI.dll
+C:\Users\daniel.ferreira\Documents\GitHub\MinhaPrimeiraAPI\obj\Debug\net8.0\MinhaPrimeiraAPI.sourcelink.json

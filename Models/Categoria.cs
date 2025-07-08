@@ -1,8 +1,10 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace MinhaPrimeiraAPI.Models
-{
+namespace MinhaPrimeiraAPI.Models;
+
+[Table("Categoria")]
     public class Categoria
     {
         public Categoria()
@@ -21,4 +23,3 @@ namespace MinhaPrimeiraAPI.Models
         public string? ImagemURL { get; set; }
         public ICollection<Produto>? Produtos { get; set; }
     }
-}
