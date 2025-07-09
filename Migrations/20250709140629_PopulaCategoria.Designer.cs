@@ -12,8 +12,8 @@ using MinhaPrimeiraAPI.context;
 namespace MinhaPrimeiraAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250704201800_PopulaCategorias")]
-    partial class PopulaCategorias
+    [Migration("20250709140629_PopulaCategoria")]
+    partial class PopulaCategoria
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -45,7 +45,7 @@ namespace MinhaPrimeiraAPI.Migrations
 
                     b.HasKey("CategoriaId");
 
-                    b.ToTable("Categorias");
+                    b.ToTable("Categoria");
                 });
 
             modelBuilder.Entity("MinhaPrimeiraAPI.Models.Produto", b =>
