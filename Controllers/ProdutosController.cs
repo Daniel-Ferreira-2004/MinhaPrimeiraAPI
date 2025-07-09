@@ -65,5 +65,18 @@ namespace MinhaPrimeiraAPI.Controllers
             _context.SaveChanges();
             return Ok(produtos);
         }
+
+        [HttpDelete("{id:int}")]
+        public ActionResult Delete(int id)
+        {
+            var produtos = _context.Produtos.FirstOrDefault(p => p.ProdutoId == id);
+            if (produtos is null)
+            {
+                return NotFound("Não foi possivel localizar um Produto com esse ID");
+            }
+            _context.Produtos.Remove(produtos);
+            _context.SaveChanges();
+            return Ok(produtos);
+        }
     }
 }
