@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B470C017-AC34-4A12-8C6C-661FD8EEC9DE}|MinhaPrimeiraAPI.csproj|c:\\users\\daniel.ferreira\\documents\\github\\minhaprimeiraapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B470C017-AC34-4A12-8C6C-661FD8EEC9DE}|MinhaPrimeiraAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B470C017-AC34-4A12-8C6C-661FD8EEC9DE}|MinhaPrimeiraAPI.csproj|c:\\users\\daniel.ferreira\\documents\\github\\minhaprimeiraapi\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B470C017-AC34-4A12-8C6C-661FD8EEC9DE}|MinhaPrimeiraAPI.csproj|solutionrelative:controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B470C017-AC34-4A12-8C6C-661FD8EEC9DE}|MinhaPrimeiraAPI.csproj|c:\\users\\daniel.ferreira\\documents\\github\\minhaprimeiraapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B470C017-AC34-4A12-8C6C-661FD8EEC9DE}|MinhaPrimeiraAPI.csproj|solutionrelative:controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B470C017-AC34-4A12-8C6C-661FD8EEC9DE}|MinhaPrimeiraAPI.csproj|c:\\users\\daniel.ferreira\\documents\\github\\minhaprimeiraapi\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B470C017-AC34-4A12-8C6C-661FD8EEC9DE}|MinhaPrimeiraAPI.csproj|solutionrelative:models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B470C017-AC34-4A12-8C6C-661FD8EEC9DE}|MinhaPrimeiraAPI.csproj|c:\\users\\daniel.ferreira\\documents\\github\\minhaprimeiraapi\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B470C017-AC34-4A12-8C6C-661FD8EEC9DE}|MinhaPrimeiraAPI.csproj|solutionrelative:models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B470C017-AC34-4A12-8C6C-661FD8EEC9DE}|MinhaPrimeiraAPI.csproj|c:\\users\\daniel.ferreira\\documents\\github\\minhaprimeiraapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B470C017-AC34-4A12-8C6C-661FD8EEC9DE}|MinhaPrimeiraAPI.csproj|solutionrelative:context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,25 +50,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "Models\\Produto.cs",
-              "ToolTip": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\Models\\Produto.cs",
-              "RelativeToolTip": "Models\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T14:51:58.306Z"
+              "WhenOpened": "2025-07-09T19:53:45.302Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\Models\\Categoria.cs",
+              "RelativeToolTip": "Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T19:43:40.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\context\\AppDbContext.cs",
+              "RelativeToolTip": "context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T19:01:18.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T18:23:18.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProdutosController.cs",
               "DocumentMoniker": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProdutosController.cs",
-              "ToolTip": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\Controllers\\ProdutosController.cs*",
-              "RelativeToolTip": "Controllers\\ProdutosController.cs*",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwE4AAABBAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "Controllers\\ProdutosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T14:36:40.144Z",
               "EditorCaption": ""
