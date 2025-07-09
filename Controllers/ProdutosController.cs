@@ -27,7 +27,7 @@ namespace MinhaPrimeiraAPI.Controllers
             return produtos;
         }
 
-        [HttpGet("{id:int}")]
+        [HttpGet("{id:int}", Name= "ObterProduto")]
         public ActionResult<Produto> Get(int id)
         {
             var produtos = _context.Produtos.FirstOrDefault(p => p.ProdutoId == id);
@@ -36,6 +36,21 @@ namespace MinhaPrimeiraAPI.Controllers
                 return NotFound("Não foi possivel localizar um Produto com esse ID");
             }
             return produtos;
+        }
+
+        [HttpPost]
+        public ActionResult Post(Produto produtos)
+        {
+            if (produtos is null)
+            {
+                return BadRequest("O produto não pode ser nulo");
+            }
+
+            _context.Produtos.Add(produtos);
+            _context.SaveChanges();
+
+            return new CreatedAtRouteResult("ObterProduto",
+                new { id = produtos.ProdutoId }, produtos);
         }
     }
 }
