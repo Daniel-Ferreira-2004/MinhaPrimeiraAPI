@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MinhaPrimeiraAPI.context;
 using MinhaPrimeiraAPI.Models;
 
@@ -51,6 +52,18 @@ namespace MinhaPrimeiraAPI.Controllers
 
             return new CreatedAtRouteResult("ObterProduto",
                 new { id = produtos.ProdutoId }, produtos);
+        }
+
+        [HttpPut("{id:int}")]
+        public ActionResult Put(int id, Produto produtos)
+        {
+            if (id != produtos.ProdutoId)
+            {
+                return BadRequest("O ID do produto não confere com o ID informado na URL");
+            }
+            _context.Entry(produtos).State = EntityState.Modified;
+            _context.SaveChanges();
+            return Ok(produtos);
         }
     }
 }
