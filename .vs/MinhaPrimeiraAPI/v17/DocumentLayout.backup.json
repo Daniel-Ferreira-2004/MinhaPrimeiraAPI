@@ -22,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250704201800_PopulaCategorias.cs",
-              "DocumentMoniker": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\Migrations\\20250704201800_PopulaCategorias.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250704201800_PopulaCategorias.cs",
-              "ToolTip": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\Migrations\\20250704201800_PopulaCategorias.cs*",
-              "RelativeToolTip": "Migrations\\20250704201800_PopulaCategorias.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T20:18:02.993Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -52,6 +39,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250704201800_PopulaCategorias.cs",
+              "DocumentMoniker": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\Migrations\\20250704201800_PopulaCategorias.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250704201800_PopulaCategorias.cs",
+              "ToolTip": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\Migrations\\20250704201800_PopulaCategorias.cs",
+              "RelativeToolTip": "Migrations\\20250704201800_PopulaCategorias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T20:18:02.993Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,8 +72,8 @@
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\Models\\Categoria.cs*",
-              "RelativeToolTip": "Models\\Categoria.cs*",
+              "ToolTip": "C:\\Users\\daniel.ferreira\\Documents\\GitHub\\MinhaPrimeiraAPI\\Models\\Categoria.cs",
+              "RelativeToolTip": "Models\\Categoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T20:11:42.752Z",
