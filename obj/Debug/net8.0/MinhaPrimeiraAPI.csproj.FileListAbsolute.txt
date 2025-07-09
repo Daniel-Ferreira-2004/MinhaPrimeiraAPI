@@ -107,3 +107,4 @@ C:\Users\daniel.ferreira\Documents\GitHub\MinhaPrimeiraAPI\obj\Debug\net8.0\Minh
 C:\Users\daniel.ferreira\Documents\GitHub\MinhaPrimeiraAPI\obj\Debug\net8.0\MinhaPrimeiraAPI.genruntimeconfig.cache
 C:\Users\daniel.ferreira\Documents\GitHub\MinhaPrimeiraAPI\obj\Debug\net8.0\ref\MinhaPrimeiraAPI.dll
 C:\Users\daniel.ferreira\Documents\GitHub\MinhaPrimeiraAPI\obj\Debug\net8.0\MinhaPrimeiraAPI.sourcelink.json
+C:\Users\daniel.ferreira\Documents\GitHub\MinhaPrimeiraAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
