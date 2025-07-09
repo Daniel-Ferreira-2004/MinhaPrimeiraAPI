@@ -12,7 +12,7 @@ using MinhaPrimeiraAPI.context;
 namespace MinhaPrimeiraAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250709140900_PopulaProdutos")]
+    [Migration("20250709142342_PopulaProdutos")]
     partial class PopulaProdutos
     {
         /// <inheritdoc />
